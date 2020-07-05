@@ -1324,7 +1324,7 @@
  * Normally G28 leaves leveling disabled on completion. Enable
  * this option to have G28 restore the prior leveling state.
  */
-#define RESTORE_LEVELING_AFTER_G28 // Sjoerd: aangezet, hierdoor hoef je niet elke keer een bed-level te doen.
+//#define RESTORE_LEVELING_AFTER_G28 // Sjoerd: aangezet, hierdoor hoef je niet elke keer een bed-level te doen. << niet waar
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.
